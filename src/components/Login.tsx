@@ -13,7 +13,7 @@ const Login: React.FC = () => {
     setError('');
 
     try {
-      const response = await fetch('http://localhost:3001/api/login', {
+      const response = await fetch('https://fight-score-app-backend.onrender.com/api/login', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
