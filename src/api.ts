@@ -1,4 +1,4 @@
-const API_BASE_URL = process.env.REACT_APP_API_BASE_URL || 'http://localhost:3001';
+const API_BASE_URL = 'https://fight-score-app-backend.onrender.com';
 
 const apiClient = async (endpoint: string, options: RequestInit = {}) => {
   const token = localStorage.getItem('authToken');
